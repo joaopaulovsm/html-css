@@ -1,0 +1,87 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
+
+:root {
+    --fonte-titulo: "Passion One", serif;
+    --fonte-texto: "Sriracha", serif; 
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    height: 150px;
+    max-width: 600px;
+    margin: auto;
+}
+
+header > h1 {
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-titulo);
+}
+header > p {
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-size: small;
+}
+
+main {
+    margin: auto;
+    max-width: 600px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.estrofe1 {
+    padding: 80px 0px;
+    
+}
+.estrofe1 > p{
+    text-indent: 20px;
+    padding-bottom: 8px;
+    font-family: var(--fonte-texto);
+}
+
+.estrofe2 {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    margin: auto;
+    padding:  80px 0px;
+}
+.estrofe2 p {
+    text-indent: 20px;
+    font-family: var(--fonte-texto);
+    color: white;
+    padding-bottom: 8px;
+    background-color: rgba(13, 13, 13, 0.212);
+}  
+
+.estrofe3 {
+    padding: 80px 0px;
+}
+
+.estrofe3 > p{
+    text-indent: 20px;
+    padding-bottom: 8px;
+    font-family: var(--fonte-texto);
+}
+
+.estrofe4 > p{
+    text-indent: 20px;
+    padding-bottom: 8px;
+    font-family: var(--fonte-texto);
+}

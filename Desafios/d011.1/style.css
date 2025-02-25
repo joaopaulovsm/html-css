@@ -1,0 +1,15 @@
+@charset "UTF-08";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(imagens/espaco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    height: 100vh;
+}
+
+div {
+    text-align: center;
+    padding-top: 50px;
+}
