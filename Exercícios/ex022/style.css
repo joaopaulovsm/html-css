@@ -75,3 +75,7 @@ main .paginas a {
     text-decoration: none;
     color: purple;
 }
+
+main > .paginas {
+    padding: 20px;
+}
