@@ -11,20 +11,18 @@ body {
 
 header {
     background-color: rgb(144, 68, 144);
-    
-    
     height: 60px;
-    display: flex;
 }
 
 header > nav {
     display: flex;
     justify-content: space-between;
+    fl
+    align-items: center;
     
 }
 
 nav > .titulo {
-    padding: 20px 1000px 0px 0px;
     white-space: nowrap;
     color: white;
     text-decoration: none;
@@ -32,7 +30,6 @@ nav > .titulo {
 nav  img {
     width: 30px;
     height: 30px;
-    margin: 15px 5px 10px 170px;
     border-radius: 10px;
 }
 
@@ -42,10 +39,8 @@ nav > .titulo:hover {
 
 nav > .login{
     color: white;
-    margin-top: 15px;
     text-decoration: none;
     white-space: nowrap;
-    margin-bottom: 20px;
 }
 
 nav > .login:hover {
