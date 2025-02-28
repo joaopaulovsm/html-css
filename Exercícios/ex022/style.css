@@ -17,9 +17,6 @@ header {
 header > nav {
     display: flex;
     justify-content: space-between;
-    fl
-    align-items: center;
-    
 }
 
 nav > .titulo {
