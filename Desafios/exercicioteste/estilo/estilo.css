@@ -5,7 +5,11 @@
     margin: 0px;
     padding: 0px;
 }
-
+body {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
 
 .container {
     background-color: black;
@@ -15,18 +19,23 @@
     padding: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 section {
     height: 500px;
-    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h1 {
+    
     font-size: 35px;
     color: white;
-    margin-top: 30px;
     margin-bottom: 30px;
+
 }
 
 label {
@@ -38,12 +47,13 @@ label {
 }
 
 .dados {
-    height: 40px;
+    height: 30px;
     width: 250px;
     margin-bottom: 20px;
     border-radius: 10px;
     border: 0px;
     background-color: rgb(91, 91, 91);
+    padding: 5px;
 }
 
 a {
@@ -63,6 +73,7 @@ a {
     border: 0px;
     border-radius: 10px;
     background-image: linear-gradient(to right, #FF69C2 47%, #FFDC5A 100%);
+
 }
 
 .dados:active {
