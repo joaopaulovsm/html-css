@@ -11,16 +11,19 @@
         <form action="#">
             <h1>Login</h1>
             <div class="input-nome">
-                <input type="text" name="nome" id="inome" placeholder="Nome">
+                <input type="text" name="nome" id="inome" placeholder="Nome" minlength="5" maxlength="20">
             </div>
             <div class="input-senha">
-                <input type="password" name="senha" id="isenha" placeholder="Senha">
+                <input type="password" name="senha" id="isenha" placeholder="Senha" minlength="8">
             </div>
-            <div>
+            <div class="forgot-password">
                 <p>Esqueceu sua senha?<a href="#">Clique aqui</a></p>
             </div>
             <button>Enviar</button>
         </form>
+        <footer>
+                <p>Ainda não tem conta?<a href="cadastro.html">Cadastre-se</a></p>
+        </footer>
     </div>
 </body>
 </html>

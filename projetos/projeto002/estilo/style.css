@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -16,34 +18,87 @@ body {
 }
 
 .container {
+    width: 300px;
+    height: 300px;
     background-color: rgba(0, 0, 0, 0.801);
     padding: 80px;
     border-radius: 20px;
     color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.567);
 }
 
 .container h1 {
+    color: rgb(92, 190, 92);
+    font-size: 2.5em;
     margin-bottom: 30px;
+    text-align: center;
+    font-family: "Passion One", serif;
+    font-weight: normal;
+    
 }
 
-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.input-nome {
-    width: 100%;
-}
+
 input {
     padding: 15px;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     outline: none;
-    
+    width: 100%;
+    box-sizing: border-box; 
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.584);
+}
+
+input:focus {
+    border: 1px solid rgb(189, 189, 189);
 }
 
 button {
     width: 100%;
     padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    background-color:  rgb(92, 190, 92);
+    
 }
+
+.forgot-password{
+    font-size: 0.8em;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-password a{
+    font-weight: bold;
+    margin-left: 4px;
+    color: rgb(92, 190, 92);
+}
+
+.forgot-password a:hover {
+    color: rgb(62, 129, 62);
+}
+
+
+footer p{
+    font-size: 0.8em;
+    text-align: right;
+}
+
+footer a {
+    margin-left: 4px;
+    font-weight: bold;
+    color: rgb(92, 190, 92);
+}
+
+footer a:hover {
+    color: rgb(62, 129, 62);
+}
+
+button:hover {
+    background-color:rgb(62, 129, 62) ;
+}
+
